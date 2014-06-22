@@ -1,13 +1,16 @@
 {
-  "name": "MtgCrawler",
-  "version": "0.0.1",
+  "name": "mtg",
+  "version": "0.0.2",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "test"
   },
-  "author": "",
-  "license": "ISC",
+  "author": {
+      "name": "Nukr",
+      "email": "nukrs.w@gmail.com"
+  },
+  "license": "MIT",
   "dependencies": {
     "mongoose": "^3.8.12",
     "request": "^2.36.0"
