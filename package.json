@@ -1,7 +1,7 @@
 {
   "name": "mtg",
-  "version": "0.0.5",
-  "description": "",
+  "version": "0.0.6",
+  "description": "a tool to help download json form mtgjson and insert to mongodb",
   "main": "index.js",
   "scripts": {
     "test": "test"
