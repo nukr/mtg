@@ -39,7 +39,7 @@ var CardSchema = new Schema({
     originalText: String,
     originalType: String,
     legalities: String,
-    _set: {type: Schema.ObjectId, ref: 'Set'}
+    setCode: String
 })
 
 mongoose.model('Card', CardSchema)
