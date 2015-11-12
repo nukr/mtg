@@ -9,7 +9,7 @@
 ```javascript
 var mtg = require('mtg');
 mtg.download(function () {
-    mtg.json2db(function () {
+    mtg.json2db("mongodb://localhost/mtg", function () {
         console.log('done');
     });
 });
